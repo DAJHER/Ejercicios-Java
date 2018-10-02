@@ -14,6 +14,7 @@ public class HolaMundo {
         Auto auto = new Auto();
         System.out.println(auto.getPlaca());
 
+		//Bloque try
         try {
             Auto auto2 = new Auto("  ULF-0877");
             System.out.println(auto2.getPlaca());
@@ -27,6 +28,7 @@ public class HolaMundo {
         auto.lavarVehiculo();
         System.out.println( auto.getNumeroLlantas());
 
+		//Bloque Motocicleta
         Motocicleta motocicleta  = new Motocicleta("UF-03");
         motocicleta.lavarVehiculo();
         System.out.println(motocicleta.getPlaca());
