@@ -1,3 +1,4 @@
+import equals.Persona;
 import loops.Loops;
 import primeraclase.Auto;
 import primeraclase.Motocicleta;
@@ -6,6 +7,7 @@ import primeraclase.excepciones.PlacaInvalidaException;
 
 public class HolaMundo {
     public static void main(String[] args) throws Exception {
+        /*
         System.out.println("Hola mundo cruel.!!");
 
         //Loops loops = new Loops();
@@ -33,6 +35,11 @@ public class HolaMundo {
         motocicleta.lavarVehiculo();
         System.out.println(motocicleta.getPlaca());
         System.out.println( motocicleta.getNumeroLlantas());
+        */
+
+        String s1 = "Hola mundo";
+        String s2 = "Hola mundo";
+        System.out.println(s1.equals(s2));
     }
 }
 
