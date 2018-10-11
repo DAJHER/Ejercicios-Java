@@ -7,8 +7,6 @@ import java.util.List;
 
 public class EjercicioDvd {
     public static  void main(String[] args) {
-
-
         List<Dvd> peliculas = Dvd.LlenarLista();
         /*
         for (Dvd pelicula: peliculas) {
@@ -27,13 +25,11 @@ public class EjercicioDvd {
         for (Dvd dvd : peliculas){
             System.out.println(dvd);
         }
-
         System.out.println("'''''''''''''");
         Collections.sort(peliculas, new OrdenamientoPorDirector());
         for (Dvd dvd : peliculas){
             System.out.println(dvd);
         }
-
 /*
         //Dvd dvd = new Dvd("El alquimista");
         //Dvd dvd = new Dvd("El alquimista", "Novela");
@@ -43,11 +39,5 @@ public class EjercicioDvd {
         System.out.println("Genero: " + dvd.getGenero());
         System.out.println("Protagonista: " +dvd.getProtagonista());
 */
-
-
-
-
-
-
     }
 }

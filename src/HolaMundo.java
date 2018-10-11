@@ -1,3 +1,4 @@
+import ejemplostatic.Galleta;
 import equals.Persona;
 import loops.Loops;
 import primeraclase.Auto;
@@ -40,6 +41,10 @@ public class HolaMundo {
         String s1 = "Hola mundo";
         String s2 = "Hola mundo";
         System.out.println(s1.equals(s2));
+
+        Galleta galleta = new Galleta("","","","");
+
+
     }
 }
 

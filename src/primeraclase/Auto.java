@@ -4,7 +4,6 @@ import primeraclase.excepciones.PlacaInvalidaException;
 
 public class Auto extends Vehiculo{
     private String placa;
-
     //Constructor sin parametros (Default)
     public Auto() {
         placa = "Desconocido";
@@ -21,7 +20,6 @@ public class Auto extends Vehiculo{
         }
         setNumeroLlantas(4);
     }
-
     public void lavarVehiculo() {
         System.out.println("Entrando al car wash");
     }

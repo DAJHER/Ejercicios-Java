@@ -1,6 +1,9 @@
 package primeraclase;
 
 public abstract class Vehiculo {
+    public Vehiculo(){
+
+    }
     private int numeroLlantas;
 
     public int getNumeroLlantas() {
